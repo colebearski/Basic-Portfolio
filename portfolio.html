@@ -4,48 +4,53 @@
 	<meta charset="UTF-8">
 	<title>That Portfolio Though</title>
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet.css" type="text/css" href="../assets/css/reset.css">
 </head>
 <body>
 
-	<!-- Add the URL's for each of the following once they're created-->
-	
-	<div class="header">
-		<nav>	
-			<ul>
-				<li><a href="https://colepedersen.com/">Cole Pedersen</a></li>
+<div>
+	<nav>
+		<ul class="name"><!-- float this left -->
+			<li><a href="https://colepedersen.com/">Cole Pedersen</a></li>
+		</ul>
 
-				<li><a href="index.html">About</a></li>
+		<ul class="header"><!-- float this right -->
+				
+			<li id="contact"><a href="contact.html" class="chief">Contact</a></li>
 
-				<li><a href="portfolio.html">Portfolio</a></li>
+			<li id="portfolio"><a href="portfolio.html" class="chief">Portfolio</a></li>
 
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+			<li id="about"><a href="index.html" class="chief">About</a></li>
+
+		</ul>
+	</nav>
+</div>
 
 		<!-- We will want to make these links eventually to shoot to different areas of the site-->
 
-	<div class="main-content">
+
+	<div id="main-content">
 		<h1>Portfolio</h1>
-			<img src="http://lorempixel.com/400/200" alt="random"/>
+			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Hangman</div></div>
 
-			<img src="http://lorempixel.com/400/200" alt="random"/>
+			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">RPG Game</div></div>
 
-			<img src="http://lorempixel.com/400/200" alt="random"/>
+			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Trivia Game</div></div>
 
-			<img src="http://lorempixel.com/400/200" alt="random"/>
+			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Rutgers Info Widget</div></div>
 
-			<img src="http://lorempixel.com/400/200" alt="random"/>
+			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Rock Paper Scissors</div></div>
 	</div>
+
 	
 	<div class="sidebar">
 		<h2>Connect with Me</h2>
 
-			<a href="https://www.linkedin.com/in/cole-pedersen-5577a012b/" target="_blank"><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-social-media/256/Linkedin-icon.png" alt="LinkedIn" width="35" height="35"/></a>
+			<a href="https://www.linkedin.com/in/cole-pedersen-5577a012b/" class="linkedin" target="_blank"><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-social-media/256/Linkedin-icon.png" alt="LinkedIn" width="35" height="35"/></a>
 
-			<a href="https://github.com/colebearski" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" width="35" height="35"/></a>
+			<a href="https://github.com/colebearski" class="github" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" width="35" height="35"/></a>
 
-			<a href="https://stackoverflow.com/users/8060800/colebear" target="_blank"><img src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded" alt="StackOverflow" width="35" height="35"/></a>
+			<a href="https://stackoverflow.com/users/8060800/colebear" class="stack" target="_blank"><img src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded" alt="StackOverflow" width="35" height="35"/></a>
 	</div>
 
 	<div class="footer">
