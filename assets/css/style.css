@@ -1,0 +1,221 @@
+/*** Navigation Bar ***/
+
+#chief {
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 25px;
+	font-size: 150%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	border-bottom: solid 2px #ccc;
+	background-color: #fff;
+}
+
+li a {
+	display: block;
+	color: #777;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	float: right;
+	background-color: #fff;
+	padding: 25px;
+}
+
+/*** Background Image ***/
+
+body, html {
+	height: 100%;
+	background-image: url("http://allswalls.com/images/2014-kawasaki-kx450f-motocross-moto-dirtbike-wallpaper-3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg {
+	background-image: url("http://allswalls.com/images/2014-kawasaki-kx450f-motocross-moto-dirtbike-wallpaper-3.jpg");
+}
+
+
+/*** About Me Section ***/
+
+.container {
+	width: 80%;
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+}
+
+.about {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	margin-top: 10px;
+	padding: 20px 15px;
+	width: 60%;
+	float: left;
+}
+
+.about h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+.about img {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+
+/*** Connect with Me Section ***/
+
+.sidebar {	
+	background-color: #fff;
+	border: 2px solid #ddd;
+	width: 250px;
+	height: 180px;
+	float: right;
+	padding: 15px;
+}
+
+.sidebar h2 {
+	text-align: center;
+	border-bottom: solid 3px #ddd;
+}
+
+#social #holder ul {
+	float: left;
+}
+
+#social #holder ul li {
+	float: left;
+	padding-left: 5px;	
+}
+
+
+/*** Contact Form ***/
+
+.repo {
+	margin: auto;
+	padding: 10px;
+}
+
+.placeholder {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	margin-top: 10px;
+	padding: 20px 15px;
+	width: 60%;
+	float: left;
+	clear: both;
+}
+
+.placeholder h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+input[type=text], textarea {
+	width: 50%;
+	border: solid 1px #ddd;
+	border-radius: 2px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.placeholder {
+	border-radius: 5px;
+	background-color: #fff;
+	
+}
+
+
+/*** Portfolio Section ***/
+
+.gallery {
+	margin: 5px;
+	float: left;
+	width: 265px;
+}
+
+/** If We Want a Hover .gallery:hover {
+	border: 1px solid #777; 
+} **/
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.vessel {
+	
+}
+
+.project {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	margin-top: 10px;
+	width: 60%;
+	float: left;
+	clear: both;
+}
+
+.project h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+/*** Footer Section ***/
+
+.footer {
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	background-color: #666;
+	text-align: center;
+	border-top: solid 5px #4aaaa5;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,46 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/***** General Styles *****/
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/***** Header Style *****/
+
+
+/***** Navigation Style *****/
+
+
+/***** Footer Style *****/
+
+/***** Background Image *****/
+
+
+
+
+
+
+
+
+
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,7 +63,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }

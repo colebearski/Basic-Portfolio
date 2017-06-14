@@ -3,62 +3,91 @@
 <head>
 	<meta charset="UTF-8">
 	<title>That Portfolio Though</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet.css" type="text/css" href="assets/css/reset.css">
 </head>
 <body>
 
+
+<!-- Navigation -->
+
+
 <div>
 	<nav>
-		<ul class="name"><!-- float this left -->
-			<li><a href="https://colepedersen.com/">Cole Pedersen</a></li>
-		</ul>
+		<ul class="header">
+			<!-- Float this left -->
 
-		<ul class="header"><!-- float this right -->
-				
-			<li id="contact"><a href="contact.html" class="chief">Contact</a></li>
+			<li><a id="chief" href="https://colepedersen.com/">Cole Pedersen</a></li>
+		
+			<!-- Float these right -->
 
-			<li id="portfolio"><a href="portfolio.html" class="chief">Portfolio</a></li>
-
-			<li id="about"><a href="index.html" class="chief">About</a></li>
-
+			<li><a class="active" href="contact.html">Contact</a></li>
+			<li><a class="active" href="portfolio.html">Portfolio</a></li>
+			<li><a class="active" href="index.html">About</a></li>
 		</ul>
 	</nav>
 </div>
 
-		<!-- We will want to make these links eventually to shoot to different areas of the site-->
+		
+<!-- Portfolio Content -->
 
 
-	<div id="main-content">
+<section class="vessel">
+
+	<div class="project">
 		<h1>Portfolio</h1>
-			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Hangman</div></div>
 
-			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">RPG Game</div></div>
+			<div class=" gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div>Hangman</div></div>
 
-			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Trivia Game</div></div>
+			<div class="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div>RPG Game</div></div>
 
-			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Rutgers Info Widget</div></div>
+			<div class="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div>Trivia Game</div></div>
 
-			<div id="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div id="photo">Rock Paper Scissors</div></div>
+			<div class="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div>Rutgers Info Widget</div></div>
+
+			<div class="gallery"><img src="http://lorempixel.com/400/200" alt="random"/><div>Rock Paper Scissors</div></div>
 	</div>
 
+
+	<!-- Connect With Me Content -->
+
 	
+	<div id="social">
+	<div id="holder">
+
 	<div class="sidebar">
 		<h2>Connect with Me</h2>
 
-			<a href="https://www.linkedin.com/in/cole-pedersen-5577a012b/" class="linkedin" target="_blank"><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-social-media/256/Linkedin-icon.png" alt="LinkedIn" width="35" height="35"/></a>
+			<ul>
+				<li>
+					<a href="https://www.linkedin.com/in/cole-pedersen-5577a012b/" target="_blank"><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-social-media/256/Linkedin-icon.png" alt="LinkedIn" width="46" height="46"/></a>
+				</li>
 
-			<a href="https://github.com/colebearski" class="github" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" width="35" height="35"/></a>
+				<li>
+					<a href="https://github.com/colebearski" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" width="46" height="46"/></a>
+				</li>
 
-			<a href="https://stackoverflow.com/users/8060800/colebear" class="stack" target="_blank"><img src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded" alt="StackOverflow" width="35" height="35"/></a>
+				<li>
+					<a href="https://stackoverflow.com/users/8060800/colebear" target="_blank"><img src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded" alt="StackOverflow" width="46" height="46"/></a>
+				</li>
+			</ul>
+		</div>
 	</div>
+	</div>
+
+</section>
+
+
+<!-- Footer Section -->
+
 
 	<div class="footer">
+		<footer>
 
-		<p>Copyright 2017 Cole Pedersen</p>
+			<p>&copy; Copyright 2017 Cole Pedersen</p>
 
+		</footer>
 	</div>
 
-	
 </body>
 </html>
